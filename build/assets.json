@@ -1,0 +1,10 @@
+{
+    "name": "basic",
+    "version": "0.1",
+    "rootDir": "out",
+    "concepts": [
+        {
+            "name": "concept"
+        }
+    ]
+}
