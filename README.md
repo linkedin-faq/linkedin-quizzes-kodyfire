@@ -49,19 +49,38 @@ kody run -s kody-linkedin-quizzes.json
 ```
 ### Available concepts 
 
-#### `component`
+#### `component` (default)
 > Generates a linkedin Quiz
 
 ##### Params
 
-- `name` _string_ - The test name you want to practice
+- `name` _enum_ - The test name you want to practice
 - `showAnswer` _boolean_ - If the result of the answer should be displayed (Correct|Incorrect).
 - `showCorrectAnswer` _boolean_ - If the correct should be displayed when the provided answer is wrong.
 - `showReference` _boolean_ - Show reference links if any.
 - `showScore` _boolean_ - Show the score by the end of the test.
 
+#### `mixmatch` 
+> Generates a mixed practice test from many Linkedin quizzes
+
+##### Usage
+```bash
+kody g linkedin-quizzes mixmatch
+```
+##### Params
+
+- `quizzes` _quiz[]_ - The quizzes you want to use for your quiz
+- `showAnswer` _boolean_ - If the result of the answer should be displayed (Correct|Incorrect).
+- `showCorrectAnswer` _boolean_ - If the correct should be displayed when the provided answer is wrong.
+- `showReference` _boolean_ - Show reference links if any.
+- `showScore` _boolean_ - Show the score by the end of the test.
+
+##### Quiz
+- `name` _enum_ - The test name you want to practice
+- `total` _number_ - Total number of questions
+- 
 ## 📅 Future Features
-- Mix questions from multiple practice tests
+- ~~Mix questions from multiple practice tests~~
 - Track progress
 - Display overtime progress in a chart (cli)
 - Share result on social media

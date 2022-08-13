@@ -49,6 +49,50 @@ export declare class Kody extends BaseKody {
                     };
                 };
             };
+            mixmatch: {
+                type: string;
+                items: {
+                    type: string;
+                    properties: {
+                        quizzes: {
+                            type: string;
+                            items: {
+                                type: string;
+                                properties: {
+                                    name: {
+                                        enum: any[];
+                                        description: string;
+                                    };
+                                    total: {
+                                        type: string;
+                                        description: string;
+                                    };
+                                };
+                            };
+                        };
+                        showAnswer: {
+                            type: string;
+                            description: string;
+                            default: boolean;
+                        };
+                        showCorrectAnswer: {
+                            type: string;
+                            description: string;
+                            default: boolean;
+                        };
+                        showReference: {
+                            type: string;
+                            description: string;
+                            default: boolean;
+                        };
+                        showScore: {
+                            type: string;
+                            description: string;
+                            default: boolean;
+                        };
+                    };
+                };
+            };
         };
         required: string[];
     }, technology?: Technology);

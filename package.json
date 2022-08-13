@@ -1,6 +1,6 @@
 {
   "name": "linkedin-quizzes-kodyfire",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Practice Linkedin skills assessment tests with linkedin-quizzes kodyfire",
   "main": "build/index.js",
   "scripts": {
@@ -21,19 +21,23 @@
     "@angular-devkit/core": "^12.2.3",
     "@angular-devkit/schematics": "^12.2.3",
     "ajv": "^8.6.3",
-    "basic-kodyfire": "^0.0.164",
+    "basic-kodyfire": "^0.0.165",
     "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
     "handlebars-delimiters": "^1.0.0",
-    "kodyfire-core": "^0.0.164",
-    "linkedin-quizzes": "^1.0.9",
+    "kodyfire-core": "^0.0.165",
+    "linkedin-quizzes": "^1.0.11",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "pluralize": "^8.0.0",
+    "prompts": "^2.4.2",
     "typescript": "~4.5.5"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.182",
     "@types/node": "^12.20.43",
     "@types/pluralize": "0.0.29",
+    "@types/prompts": "^2.0.14",
     "copyfiles": "^2.4.1"
   }
 }
