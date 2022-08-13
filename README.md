@@ -54,7 +54,7 @@ kody run -s kody-linkedin-quizzes.json
 
 ##### Usage
 ```bash
-kody g linkedin-quizzes mixmatch
+kody g linkedin-quizzes
 ```
 ##### Params
 
