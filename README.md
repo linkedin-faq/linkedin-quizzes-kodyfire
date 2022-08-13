@@ -49,9 +49,13 @@ kody run -s kody-linkedin-quizzes.json
 ```
 ### Available concepts 
 
-#### `component` (default)
+#### `concept` (default)
 > Generates a linkedin Quiz
 
+##### Usage
+```bash
+kody g linkedin-quizzes mixmatch
+```
 ##### Params
 
 - `name` _enum_ - The test name you want to practice
@@ -78,7 +82,7 @@ kody g linkedin-quizzes mixmatch
 ##### Quiz
 - `name` _enum_ - The test name you want to practice
 - `total` _number_ - Total number of questions
-- 
+
 ## 📅 Future Features
 - ~~Mix questions from multiple practice tests~~
 - Track progress
